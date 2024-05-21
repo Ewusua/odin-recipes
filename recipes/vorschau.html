@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Example</title>
+  <style>
+    /* Styles from your code */
+    .container {
+      font-size: 78px;
+      font-weight: bold;
+      /* background: teamColor; */  /* Removed as you don't have a teamColor variable */
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: #FFF;
+      border-top-width: 12px;
+      border-top-color: #FFEA02;
+      border-bottom-width: 12px;
+      border-bottom-color: #CC0400;
+    }
+
+    .inner-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .image-container {
+      display: flex;
+      justify-content: center;
+    }
+
+    .image {
+      height: 192px;
+      width: 192px;
+      /* Replace with your actual image source */
+      src: "https://picsum.photos/id/237/192/192" ;
+      alt: "Example Image";
+    }
+
+    .title {
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+    }
+
+    .subtitle {
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+    }
+
+    .button-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      width: 100%;
+    }
+
+    .button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 147px;
+      height: 51px;
+      background: #CC0400;
+    }
+
+    .logo {
+      width: 131px;
+      height: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="inner-container">
+      <div class="image-container">
+        <img class="image" alt="Example Image">
+      </div>
+      <div class="title">Title</div>  <div class="subtitle">Subtitle</div>  </div>
+    <div class="button-container">
+      <div class="button">
+        <span class="logo">Logo</span>  </div>
+    </div>
+  </div>
+</body>
+</html>
